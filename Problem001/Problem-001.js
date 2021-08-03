@@ -3,8 +3,8 @@
 
 function Euler(maxCount, a) {
   let anser = a
-  for (let index = 1; index < maxCount; index++) {
-    if (index % 3 === 0 || index % 5 === 0 ) anser += index;
+  for (let i = 1; i < maxCount; i++) {
+    if (i % 3 === 0 || i % 5 === 0 ) anser += index;
   }
   return anser;
 }
