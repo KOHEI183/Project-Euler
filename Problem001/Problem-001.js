@@ -4,7 +4,7 @@
 function Euler(maxCount, a) {
   let anser = a
   for (let i = 1; i < maxCount; i++) {
-    if (i % 3 === 0 || i % 5 === 0 ) anser += index;
+    if (i % 3 === 0 || i % 5 === 0 ) anser += i;
   }
   return anser;
 }
